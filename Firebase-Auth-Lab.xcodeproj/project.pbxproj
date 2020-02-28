@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02682EF62409CA440064C354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02682EF52409CA440064C354 /* AppDelegate.swift */; };
+		02682EF82409CA440064C354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02682EF72409CA440064C354 /* SceneDelegate.swift */; };
+		02682EFA2409CA440064C354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02682EF92409CA440064C354 /* ViewController.swift */; };
+		02682EFD2409CA440064C354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02682EFB2409CA440064C354 /* Main.storyboard */; };
+		02682EFF2409CA460064C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02682EFE2409CA460064C354 /* Assets.xcassets */; };
+		02682F022409CA460064C354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02682F002409CA460064C354 /* LaunchScreen.storyboard */; };
+		02682F0D2409CA460064C354 /* Firebase_Auth_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02682F0C2409CA460064C354 /* Firebase_Auth_LabTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02682F092409CA460064C354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02682EEA2409CA440064C354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02682EF12409CA440064C354;
+			remoteInfo = "Firebase-Auth-Lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02682EF22409CA440064C354 /* Firebase-Auth-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-Auth-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02682EF52409CA440064C354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02682EF72409CA440064C354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02682EF92409CA440064C354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02682EFC2409CA440064C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02682EFE2409CA460064C354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02682F012409CA460064C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02682F032409CA460064C354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02682F082409CA460064C354 /* Firebase-Auth-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase-Auth-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02682F0C2409CA460064C354 /* Firebase_Auth_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Auth_LabTests.swift; sourceTree = "<group>"; };
+		02682F0E2409CA460064C354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02682EEF2409CA440064C354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02682F052409CA460064C354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02682EE92409CA440064C354 = {
+			isa = PBXGroup;
+			children = (
+				02682EF42409CA440064C354 /* Firebase-Auth-Lab */,
+				02682F0B2409CA460064C354 /* Firebase-Auth-LabTests */,
+				02682EF32409CA440064C354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02682EF32409CA440064C354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02682EF22409CA440064C354 /* Firebase-Auth-Lab.app */,
+				02682F082409CA460064C354 /* Firebase-Auth-LabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02682EF42409CA440064C354 /* Firebase-Auth-Lab */ = {
+			isa = PBXGroup;
+			children = (
+				02682EF52409CA440064C354 /* AppDelegate.swift */,
+				02682EF72409CA440064C354 /* SceneDelegate.swift */,
+				02682EF92409CA440064C354 /* ViewController.swift */,
+				02682EFB2409CA440064C354 /* Main.storyboard */,
+				02682EFE2409CA460064C354 /* Assets.xcassets */,
+				02682F002409CA460064C354 /* LaunchScreen.storyboard */,
+				02682F032409CA460064C354 /* Info.plist */,
+			);
+			path = "Firebase-Auth-Lab";
+			sourceTree = "<group>";
+		};
+		02682F0B2409CA460064C354 /* Firebase-Auth-LabTests */ = {
+			isa = PBXGroup;
+			children = (
+				02682F0C2409CA460064C354 /* Firebase_Auth_LabTests.swift */,
+				02682F0E2409CA460064C354 /* Info.plist */,
+			);
+			path = "Firebase-Auth-LabTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02682EF12409CA440064C354 /* Firebase-Auth-Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02682F112409CA460064C354 /* Build configuration list for PBXNativeTarget "Firebase-Auth-Lab" */;
+			buildPhases = (
+				02682EEE2409CA440064C354 /* Sources */,
+				02682EEF2409CA440064C354 /* Frameworks */,
+				02682EF02409CA440064C354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase-Auth-Lab";
+			productName = "Firebase-Auth-Lab";
+			productReference = 02682EF22409CA440064C354 /* Firebase-Auth-Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02682F072409CA460064C354 /* Firebase-Auth-LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02682F142409CA460064C354 /* Build configuration list for PBXNativeTarget "Firebase-Auth-LabTests" */;
+			buildPhases = (
+				02682F042409CA460064C354 /* Sources */,
+				02682F052409CA460064C354 /* Frameworks */,
+				02682F062409CA460064C354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02682F0A2409CA460064C354 /* PBXTargetDependency */,
+			);
+			name = "Firebase-Auth-LabTests";
+			productName = "Firebase-Auth-LabTests";
+			productReference = 02682F082409CA460064C354 /* Firebase-Auth-LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02682EEA2409CA440064C354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kelby Mittan";
+				TargetAttributes = {
+					02682EF12409CA440064C354 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					02682F072409CA460064C354 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 02682EF12409CA440064C354;
+					};
+				};
+			};
+			buildConfigurationList = 02682EED2409CA440064C354 /* Build configuration list for PBXProject "Firebase-Auth-Lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02682EE92409CA440064C354;
+			productRefGroup = 02682EF32409CA440064C354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02682EF12409CA440064C354 /* Firebase-Auth-Lab */,
+				02682F072409CA460064C354 /* Firebase-Auth-LabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02682EF02409CA440064C354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02682F022409CA460064C354 /* LaunchScreen.storyboard in Resources */,
+				02682EFF2409CA460064C354 /* Assets.xcassets in Resources */,
+				02682EFD2409CA440064C354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02682F062409CA460064C354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02682EEE2409CA440064C354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02682EFA2409CA440064C354 /* ViewController.swift in Sources */,
+				02682EF62409CA440064C354 /* AppDelegate.swift in Sources */,
+				02682EF82409CA440064C354 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02682F042409CA460064C354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02682F0D2409CA460064C354 /* Firebase_Auth_LabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02682F0A2409CA460064C354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02682EF12409CA440064C354 /* Firebase-Auth-Lab */;
+			targetProxy = 02682F092409CA460064C354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02682EFB2409CA440064C354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02682EFC2409CA440064C354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02682F002409CA460064C354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02682F012409CA460064C354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02682F0F2409CA460064C354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02682F102409CA460064C354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02682F122409CA460064C354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F72Z6LFG;
+				INFOPLIST_FILE = "Firebase-Auth-Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelbymittan.Firebase-Auth-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02682F132409CA460064C354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F72Z6LFG;
+				INFOPLIST_FILE = "Firebase-Auth-Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelbymittan.Firebase-Auth-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02682F152409CA460064C354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F72Z6LFG;
+				INFOPLIST_FILE = "Firebase-Auth-LabTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelbymittan.Firebase-Auth-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase-Auth-Lab.app/Firebase-Auth-Lab";
+			};
+			name = Debug;
+		};
+		02682F162409CA460064C354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F72Z6LFG;
+				INFOPLIST_FILE = "Firebase-Auth-LabTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelbymittan.Firebase-Auth-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase-Auth-Lab.app/Firebase-Auth-Lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02682EED2409CA440064C354 /* Build configuration list for PBXProject "Firebase-Auth-Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02682F0F2409CA460064C354 /* Debug */,
+				02682F102409CA460064C354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02682F112409CA460064C354 /* Build configuration list for PBXNativeTarget "Firebase-Auth-Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02682F122409CA460064C354 /* Debug */,
+				02682F132409CA460064C354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02682F142409CA460064C354 /* Build configuration list for PBXNativeTarget "Firebase-Auth-LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02682F152409CA460064C354 /* Debug */,
+				02682F162409CA460064C354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02682EEA2409CA440064C354 /* Project object */;
+}
