@@ -14,7 +14,7 @@ enum AccountState {
 }
 
 class LoginViewController: UIViewController {
-
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
@@ -26,21 +26,45 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
-
+    
     @IBAction func signupButtonPressed(_ sender: UIButton) {
         
         guard let email = emailTextField.text, !email.isEmpty, let password = passwordTextField.text, !password.isEmpty else {
-            print("missing info")
+            showAlert(title: "Oops", message: "Missing Info")
             return
         }
         
+        authSession.createNewUser(email: email, password: password) { [weak self] (result) in
+            
+            switch result {
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self?.showAlert(title: "Could not sign up", message: "\(error.localizedDescription)")
+                }
+            case .success:
+                DispatchQueue.main.async {
+//                    self?.showAlert(title: "cool", message: "you're signed up")
+                    
+                    let mainSB = UIStoryboard(name: "Main", bundle: nil)
+                    let profileVC = mainSB.instantiateViewController(identifier: "ProfileViewController") { (coder) in
+                        return ProfileViewController(coder: coder)
+                        
+                    }
+                    
+                    self?.present(UINavigationController(rootViewController: profileVC), animated: true)
+                }
+            }
+        }
         
     }
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
-        
+        guard let email = emailTextField.text, !email.isEmpty, let password = passwordTextField.text, !password.isEmpty else {
+            showAlert(title: "Oops", message: "Missing Info")
+            return
+        }
     }
 }
 
