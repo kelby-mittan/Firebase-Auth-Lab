@@ -45,7 +45,6 @@ class LoginViewController: UIViewController {
                 }
             case .success:
                 DispatchQueue.main.async {
-//                    self?.showAlert(title: "cool", message: "you're signed up")
                     
                     let mainSB = UIStoryboard(name: "Main", bundle: nil)
                     let profileVC = mainSB.instantiateViewController(identifier: "ProfileViewController") { (coder) in
@@ -64,6 +63,27 @@ class LoginViewController: UIViewController {
         guard let email = emailTextField.text, !email.isEmpty, let password = passwordTextField.text, !password.isEmpty else {
             showAlert(title: "Oops", message: "Missing Info")
             return
+        }
+        
+        if accountState == .existingUser {
+            authSession.signExistingUser(email: email, password: password) { [weak self] (result) in
+                switch result {
+                case .failure(let error):
+                    DispatchQueue.main.async {
+                        self?.showAlert(title: "Could not login", message: "\(error.localizedDescription)")
+                    }
+                case .success:
+                    DispatchQueue.main.async {
+                        let mainSB = UIStoryboard(name: "Main", bundle: nil)
+                        let profileVC = mainSB.instantiateViewController(identifier: "ProfileViewController") { (coder) in
+                            return ProfileViewController(coder: coder)
+                            
+                        }
+                        
+                        self?.present(UINavigationController(rootViewController: profileVC), animated: true)
+                    }
+                }
+            }
         }
     }
 }

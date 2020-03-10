@@ -91,7 +91,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IaV-Ng-Coc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IaV-Ng-Coc">
                                 <rect key="frame" x="87" y="94" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="IaV-Ng-Coc" secondAttribute="height" multiplier="1:1" id="VFf-g6-lpy"/>
@@ -104,6 +104,9 @@
                                     <constraint firstAttribute="height" constant="44" id="uOy-MC-dPP"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="ellipsis.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="editProfileButtonPressed:" destination="vF3-3w-tZ0" eventType="touchUpInside" id="Ilv-WM-HP1"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter an @" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MQo-5a-Hsn">
                                 <rect key="frame" x="87" y="354" width="240" height="34"/>
@@ -124,6 +127,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyv-Z1-NK4">
                                 <rect key="frame" x="159" y="482" width="96" height="30"/>
                                 <state key="normal" title="update profile"/>
+                                <connections>
+                                    <action selector="updateProfileButtonPressed:" destination="vF3-3w-tZ0" eventType="touchUpInside" id="AhT-tf-csZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -147,10 +153,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LL3-pR-yHj"/>
                     </view>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="MQo-5a-Hsn" id="MLo-c8-7NF"/>
+                        <outlet property="emailLabel" destination="le9-kB-2n8" id="ND0-k4-QgM"/>
+                        <outlet property="phoneNumberTextField" destination="6kC-k8-SUO" id="9rI-mh-wOk"/>
+                        <outlet property="profileImage" destination="IaV-Ng-Coc" id="Hem-jx-gmW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AgQ-ua-es3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991" y="114"/>
+            <point key="canvasLocation" x="826" y="114"/>
         </scene>
     </scenes>
     <resources>

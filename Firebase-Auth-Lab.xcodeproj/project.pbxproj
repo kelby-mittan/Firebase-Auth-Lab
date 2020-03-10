@@ -17,6 +17,7 @@
 		026AA63524180ED900B8C548 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026AA63424180ED900B8C548 /* ProfileViewController.swift */; };
 		026AA63924180F3200B8C548 /* AuthenticationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026AA63824180F3200B8C548 /* AuthenticationSession.swift */; };
 		026AA63B24181AA000B8C548 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 026AA63A24181AA000B8C548 /* GoogleService-Info.plist */; };
+		026AA63D24181DCA00B8C548 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026AA63C24181DCA00B8C548 /* StorageService.swift */; };
 		0907D7FF942993CCA8720AA2 /* Pods_Firebase_Auth_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CCA9A3BCDFBEEF30F68168 /* Pods_Firebase_Auth_Lab.framework */; };
 		96029C80FC93456D96A295D6 /* Pods_Firebase_Auth_LabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89BBFF60269224B60968021 /* Pods_Firebase_Auth_LabTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		026AA63424180ED900B8C548 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		026AA63824180F3200B8C548 /* AuthenticationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSession.swift; sourceTree = "<group>"; };
 		026AA63A24181AA000B8C548 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		026AA63C24181DCA00B8C548 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		4E66F4D1306923198EB9388A /* Pods-Firebase-Auth-Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-Auth-Lab.release.xcconfig"; path = "Target Support Files/Pods-Firebase-Auth-Lab/Pods-Firebase-Auth-Lab.release.xcconfig"; sourceTree = "<group>"; };
 		920AA6D10B2AF1E09928E809 /* Pods-Firebase-Auth-Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-Auth-Lab.debug.xcconfig"; path = "Target Support Files/Pods-Firebase-Auth-Lab/Pods-Firebase-Auth-Lab.debug.xcconfig"; sourceTree = "<group>"; };
 		A9CCA9A3BCDFBEEF30F68168 /* Pods_Firebase_Auth_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Auth_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				02682EF92409CA440064C354 /* LoginViewController.swift */,
 				026AA63424180ED900B8C548 /* ProfileViewController.swift */,
 				026AA63824180F3200B8C548 /* AuthenticationSession.swift */,
+				026AA63C24181DCA00B8C548 /* StorageService.swift */,
 				02682EFB2409CA440064C354 /* Main.storyboard */,
 				02682EFE2409CA460064C354 /* Assets.xcassets */,
 				02682F002409CA460064C354 /* LaunchScreen.storyboard */,
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02682EFA2409CA440064C354 /* LoginViewController.swift in Sources */,
+				026AA63D24181DCA00B8C548 /* StorageService.swift in Sources */,
 				02682EF62409CA440064C354 /* AppDelegate.swift in Sources */,
 				026AA63524180ED900B8C548 /* ProfileViewController.swift in Sources */,
 				026AA63924180F3200B8C548 /* AuthenticationSession.swift in Sources */,
